@@ -15,8 +15,8 @@ const projects = [
     name: 'MicroJob',
     desc: 'The Micro Tasking and Earning Platform is a role-based web application where users can earn by completing small tasks or create paid tasks for others. It features secure authentication, dynamic dashboards, and real-time coin-based transactions.',
     image: microJob,
-    github: 'https://github.com/mdtanvirislamrakib/Micro-Job-Website-Client',
-    live: 'https://microjob-website.netlify.app/',
+    github: 'https://github.com/raihan51674/Micro-job-client',
+    live: 'https://microjob-website.netlify.app',
     bgColor: 'bg-gradient-to-br from-gray-900 via-blue-900 to-violet-950',
     techStack: [
       { name: 'React', icon: <FaReact className="text-blue-400" /> },
@@ -31,7 +31,7 @@ const projects = [
     name: 'HistoriVault',
     desc: 'A full-stack MERN-based web application designed to preserve and showcase historical artifacts like the Rosetta Stone, Antikythera Mechanism, and many more. Users can explore, like, and contribute their own historical findings, all within a sleek, interactive, and secure interface.',
     image: historiVault,
-    github: 'https://github.com/mdtanvirislamrakib/Historical-Artifacts-Website',
+    github: 'https://github.com/raihan51674/Historical-website',
     live: 'https://historical-artifacts.netlify.app/',
     bgColor: 'bg-gradient-to-br from-gray-900 via-blue-900 to-violet-950',
     techStack: [
@@ -47,7 +47,7 @@ const projects = [
     name: 'TaskHub',
     desc: 'TaskHub is a full-stack web application that allows users to post freelance tasks, bid on them, and manage task-based collaborations. It provides dynamic task listings, real-time bid updates, secure authentication, and an engaging user dashboard — all wrapped in a sleek, responsive interface.',
     image: taskHub,
-    github: 'https://github.com/mdtanvirislamrakib/Freelance-task-marketplace-client',
+    github: 'https://github.com/raihan51674',
     live: 'https://freelance-task-matketplace.netlify.app/',
     bgColor: 'bg-gradient-to-br from-gray-900 via-blue-900 to-violet-950',
     techStack: [
@@ -63,7 +63,7 @@ const projects = [
     name: 'Eventify',
     desc: 'Event Explorer is a responsive single-page application built with React, designed to help users discover and explore upcoming local events like conferences, art exhibitions, sports events, and more. Authenticated users can view detailed event pages, reserve seats, and manage their profiles.',
     image: eventify,
-    github: 'https://github.com/mdtanvirislamrakib/Event-Explorer-Website',
+    github: 'https://github.com/raihan51674',
     live: 'https://eventify-explore-events.netlify.app/',
     bgColor: 'bg-gradient-to-br from-gray-900 via-blue-900 to-violet-950',
     techStack: [
@@ -78,7 +78,7 @@ const projects = [
     name: 'MediCare',
     desc: 'MediCare is a responsive, frontend-only medical web application built using modern web technologies like React and Tailwind CSS. It is designed to provide a clean, intuitive, and professional user interface for showcasing medical services, doctor profiles, statistics, and health-related content.',
     image: madicare,
-    github: 'https://github.com/mdtanvirislamrakib/PHUDU-Medical',
+    github: 'https://github.com/raihan51674',
     live: 'https://splendid-stroopwafel-1f5da0.netlify.app/',
     bgColor: 'bg-gradient-to-br from-gray-900 via-blue-900 to-violet-950',
     techStack: [
