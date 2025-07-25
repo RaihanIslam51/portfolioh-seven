@@ -8,14 +8,6 @@
 
 ---
 
-## 🖥️ Live Demo
-
-Check out the live version of this portfolio:
-
-🔗 [https://md-tanvir-islam-rakib.netlify.app/]()
-
----
-
 
 ## 📋 Overview
 
