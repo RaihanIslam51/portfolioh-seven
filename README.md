@@ -1,4 +1,4 @@
-# 💼 MD. Tanvir Islam Rakib — Portfolio Website
+# 💼 MD. Raihan Islam — Portfolio Website
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)](https://reactjs.org/)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-0EA5E9?style=for-the-badge\&logo=tailwind-css\&logoColor=white)](https://tailwindcss.com/)
@@ -12,17 +12,10 @@
 
 Check out the live version of this portfolio:
 
-🔗 [https://md-tanvir-islam-rakib.netlify.app/](https://md-tanvir-islam-rakib.netlify.app/)
+🔗 [https://md-tanvir-islam-rakib.netlify.app/]()
 
 ---
 
-## 🖼️ Preview
-
-> 📸 Replace with an actual screenshot of your project
-
-![Portfolio Preview](./src/assets/asdgaertasdfasdf.PNG)
-
----
 
 ## 📋 Overview
 
@@ -166,9 +159,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 **MD. Tanvir Islam Rakib**
 BGIFT Institute of Science & Technology
-📧 [mdtanvirislamrakib7@email.com](mailto:mdtanvirislamrakib7@email.com)  
-🌐 [GitHub](https://github.com/mdtanvirislamrakib)  
-🔗 [LinkedIn](https://www.linkedin.com/in/tanvir-islam-rakib/)  
+📧 [mdtanvirislamrakib7@email.com](mailto:mdraihan51674@email.com)  
+
 
 ---
 
