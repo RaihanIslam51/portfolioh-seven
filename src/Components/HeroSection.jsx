@@ -139,7 +139,8 @@ export default function HeroSection() {
   }
 
   const downloadResume = () => {
-    navigate("./rakib-resume.pdf")
+    // navigate("./rakib-resume.pdf")
+    navigate("/")
   }
 
   if (!mounted) return null
