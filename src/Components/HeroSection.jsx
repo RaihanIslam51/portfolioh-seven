@@ -361,7 +361,7 @@ export default function HeroSection() {
                       {"  "}
                       <span className="text-green-400">contact</span>
                       <span className="text-slate-300">:</span>{" "}
-                      <span className="text-orange-400">'mdtanvirislamrakib7@gmail.com'</span>
+                      <span className="text-orange-400">'mdraihan51674@gmail.com'</span>
                       {"\n"}
                       <span className="text-yellow-400">{"}"}</span>
                       <span className="text-slate-300">;</span>
