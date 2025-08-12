@@ -4,19 +4,22 @@ import { TbBrandFramerMotion } from "react-icons/tb";
 import { FaStripe } from "react-icons/fa";
 import { motion } from 'framer-motion';
 
-import historiVault from "../assets/historiVault.PNG";
-import taskHub from "../assets/freelance-task.PNG";
-import eventify from "../assets/event.PNG";
-import madicare from "../assets/madicare.PNG";
-import microJob from "../assets/microjob.PNG"
+// import historiVault from "../assets/historiVault.PNG";
+// import taskHub from "../assets/freelance-task.PNG";
+// import eventify from "../assets/event.PNG";
+// import madicare from "../assets/madicare.PNG";
+// import microJob from "../assets/microjob.PNG"
+import TreeEvent from "../assets/TreeEvent.png"
+import Inventory from "../assets/Inventory.png"
+import JobSearch from "../assets/Jobsearchpng.png"
 
 const projects = [
   {
-    name: 'MicroJob',
-    desc: 'The Micro Tasking and Earning Platform is a role-based web application where users can earn by completing small tasks or create paid tasks for others. It features secure authentication, dynamic dashboards, and real-time coin-based transactions.',
-    image: microJob,
-    github: 'https://github.com/raihan51674/Micro-job-client',
-    live: 'https://microjob-website.netlify.app',
+    name: 'Social Event',
+    desc: 'The Social Event Project brings people together to celebrate, connect, and share meaningful experiences. It fosters community spirit through engaging activities, cultural exchange, and collaborative participation.',
+    image: TreeEvent,
+    github: 'https://github.com/raihan51674/Tree-Plantation-Event',
+    live: 'https://tree-plantation-13b0c.web.app',
     bgColor: 'bg-gradient-to-br from-gray-900 via-blue-900 to-violet-950',
     techStack: [
       { name: 'React', icon: <FaReact className="text-blue-400" /> },
@@ -28,11 +31,11 @@ const projects = [
     ],
   },
   {
-    name: 'HistoriVault',
-    desc: 'A full-stack MERN-based web application designed to preserve and showcase historical artifacts like the Rosetta Stone, Antikythera Mechanism, and many more. Users can explore, like, and contribute their own historical findings, all within a sleek, interactive, and secure interface.',
-    image: historiVault,
-    github: 'https://github.com/raihan51674/Historical-website',
-    live: 'https://historical-artifacts.netlify.app/',
+    name: 'Inventory-management',
+    desc: 'Mobile Shop Inventory Management System Description A comprehensive and user-friendly web application designed to streamline the buying, selling, and inventory management process for mobile phones. This system is ideal for mobile shops, resellers, and distributors who want to efficiently manage stock, suppliers, sales, and customers',
+    image: Inventory,
+    github: 'https://github.com/raihan51674/Inventory-management',
+    live: 'https://inventory-management-chi-liard.vercel.app',
     bgColor: 'bg-gradient-to-br from-gray-900 via-blue-900 to-violet-950',
     techStack: [
       { name: 'React', icon: <FaReact className="text-blue-400" /> },
@@ -44,11 +47,11 @@ const projects = [
     ],
   },
   {
-    name: 'TaskHub',
-    desc: 'TaskHub is a full-stack web application that allows users to post freelance tasks, bid on them, and manage task-based collaborations. It provides dynamic task listings, real-time bid updates, secure authentication, and an engaging user dashboard — all wrapped in a sleek, responsive interface.',
-    image: taskHub,
-    github: 'https://github.com/raihan51674',
-    live: 'https://freelance-task-matketplace.netlify.app/',
+    name: 'Job Search',
+    desc: 'A powerful and intuitive Job Search web application built with the MERN stack that allows users to search, filter, and browse job listings effortlessly. Integrated with external APIs for real-time job data, this app provides advanced filtering, pagination, and user-friendly interface to help job seekers find their dream roles faster',
+    image: JobSearch,
+    github: 'https://github.com/raihan51674/job-search',
+    live: 'https://jobhelp.vercel.app',
     bgColor: 'bg-gradient-to-br from-gray-900 via-blue-900 to-violet-950',
     techStack: [
       { name: 'React', icon: <FaReact className="text-blue-400" /> },
@@ -59,36 +62,36 @@ const projects = [
       { name: 'Firebase', icon: <SiFirebase className="text-yellow-400" /> },
     ],
   },
-  {
-    name: 'Eventify',
-    desc: 'Event Explorer is a responsive single-page application built with React, designed to help users discover and explore upcoming local events like conferences, art exhibitions, sports events, and more. Authenticated users can view detailed event pages, reserve seats, and manage their profiles.',
-    image: eventify,
-    github: 'https://github.com/raihan51674',
-    live: 'https://eventify-explore-events.netlify.app/',
-    bgColor: 'bg-gradient-to-br from-gray-900 via-blue-900 to-violet-950',
-    techStack: [
-      { name: 'React', icon: <FaReact className="text-blue-400" /> },
-      { name: 'React Router', icon: <SiReactrouter className="text-red-400" /> },
-      { name: 'Firebase', icon: <SiFirebase className="text-yellow-400" /> },
-      { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-cyan-400" /> },
-      { name: 'Netlify', icon: <SiNetlify className="text-teal-400" /> },
-    ],
-  },
-  {
-    name: 'MediCare',
-    desc: 'MediCare is a responsive, frontend-only medical web application built using modern web technologies like React and Tailwind CSS. It is designed to provide a clean, intuitive, and professional user interface for showcasing medical services, doctor profiles, statistics, and health-related content.',
-    image: madicare,
-    github: 'https://github.com/raihan51674',
-    live: 'https://splendid-stroopwafel-1f5da0.netlify.app/',
-    bgColor: 'bg-gradient-to-br from-gray-900 via-blue-900 to-violet-950',
-    techStack: [
-      { name: 'React', icon: <FaReact className="text-blue-400" /> },
-      { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-cyan-400" /> },
-      { name: 'React Router', icon: <SiReactrouter className="text-red-400" /> },
-      { name: 'GitHub', icon: <FaGithubIcon className="text-gray-200" /> },
-      { name: 'Recharts', icon: <SiSoundcharts className="text-sky-400" /> },
-    ],
-  },
+  // {
+  //   name: 'Eventify',
+  //   desc: 'Event Explorer is a responsive single-page application built with React, designed to help users discover and explore upcoming local events like conferences, art exhibitions, sports events, and more. Authenticated users can view detailed event pages, reserve seats, and manage their profiles.',
+  //   image: eventify,
+  //   github: 'https://github.com/raihan51674',
+  //   live: 'https://eventify-explore-events.netlify.app/',
+  //   bgColor: 'bg-gradient-to-br from-gray-900 via-blue-900 to-violet-950',
+  //   techStack: [
+  //     { name: 'React', icon: <FaReact className="text-blue-400" /> },
+  //     { name: 'React Router', icon: <SiReactrouter className="text-red-400" /> },
+  //     { name: 'Firebase', icon: <SiFirebase className="text-yellow-400" /> },
+  //     { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-cyan-400" /> },
+  //     { name: 'Netlify', icon: <SiNetlify className="text-teal-400" /> },
+  //   ],
+  // },
+  // {
+  //   name: 'MediCare',
+  //   desc: 'MediCare is a responsive, frontend-only medical web application built using modern web technologies like React and Tailwind CSS. It is designed to provide a clean, intuitive, and professional user interface for showcasing medical services, doctor profiles, statistics, and health-related content.',
+  //   image: madicare,
+  //   github: 'https://github.com/raihan51674',
+  //   live: 'https://splendid-stroopwafel-1f5da0.netlify.app/',
+  //   bgColor: 'bg-gradient-to-br from-gray-900 via-blue-900 to-violet-950',
+  //   techStack: [
+  //     { name: 'React', icon: <FaReact className="text-blue-400" /> },
+  //     { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-cyan-400" /> },
+  //     { name: 'React Router', icon: <SiReactrouter className="text-red-400" /> },
+  //     { name: 'GitHub', icon: <FaGithubIcon className="text-gray-200" /> },
+  //     { name: 'Recharts', icon: <SiSoundcharts className="text-sky-400" /> },
+  //   ],
+  // },
 ];
 
 const ProjectShowSection = () => {
