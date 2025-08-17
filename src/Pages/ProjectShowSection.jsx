@@ -3,12 +3,6 @@ import { SiTailwindcss, SiJavascript, SiMongodb, SiExpress, SiFramer, SiJsonwebt
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { FaStripe } from "react-icons/fa";
 import { motion } from 'framer-motion';
-
-// import historiVault from "../assets/historiVault.PNG";
-// import taskHub from "../assets/freelance-task.PNG";
-// import eventify from "../assets/event.PNG";
-// import madicare from "../assets/madicare.PNG";
-// import microJob from "../assets/microjob.PNG"
 import TreeEvent from "../assets/TreeEvent.png"
 import Inventory from "../assets/Inventory.png"
 import JobSearch from "../assets/Jobsearchpng.png"
