@@ -1,18 +1,25 @@
-import { FaGithub, FaExternalLinkAlt, FaReact, FaNodeJs, FaGithub as FaGithubIcon } from 'react-icons/fa';
-import { SiTailwindcss, SiJavascript, SiMongodb, SiExpress, SiFramer, SiJsonwebtokens, SiNetlify, SiVercel, SiReactrouter, SiFirebase, SiSoundcharts } from 'react-icons/si';
-import { TbBrandFramerMotion } from "react-icons/tb";
-import { FaStripe } from "react-icons/fa";
 import { motion } from 'framer-motion';
-import TreeEvent from "../assets/TreeEvent.png"
-import Inventory from "../assets/Inventory.png"
-import JobSearch from "../assets/Jobsearchpng.png"
-import FourmHub from "../assets/"
+import { FaExternalLinkAlt, FaGithub, FaNodeJs, FaReact, FaStripe } from 'react-icons/fa';
+import {
+  SiExpress,
+  SiFirebase,
+  SiJsonwebtokens,
+  SiMongodb,
+  SiTailwindcss
+} from 'react-icons/si';
+import { TbBrandFramerMotion } from "react-icons/tb";
+
+// ✅ Make sure these files exist in /src/assets/
+import FourmHub from "../assets/formuhub.png";
+import Inventory from "../assets/Inventory.png";
+import JobSearch from "../assets/Jobsearchpng.png";
+import TreeEvent from "../assets/TreeEvent.png";
 
 const projects = [
-    {
+  {
     name: 'ForumHub Community',
     desc: 'ForumHub Community is a modern, interactive discussion platform where users can share knowledge, ask questions, and engage in meaningful conversations. Designed with a clean, responsive interface, ForumHub supports both light and dark modes for enhanced user experience',
-    image:  FourmHub,
+    image: FourmHub,
     github: 'https://github.com/RaihanIslam51/AIUB-Dinajpur-Forum',
     live: 'https://dinajpur-forum.web.app',
     bgColor: 'bg-gradient-to-br from-gray-900 via-blue-900 to-violet-950',
@@ -43,7 +50,7 @@ const projects = [
   },
   {
     name: 'Inventory-management',
-    desc: 'Mobile Shop Inventory Management System Description A comprehensive and user-friendly web application designed to streamline the buying, selling, and inventory management process for mobile phones. This system is ideal for mobile shops, resellers, and distributors who want to efficiently manage stock, suppliers, sales, and customers',
+    desc: 'Mobile Shop Inventory Management System — A comprehensive and user-friendly web application designed to streamline the buying, selling, and inventory management process for mobile phones.',
     image: Inventory,
     github: 'https://github.com/raihan51674/Inventory-management',
     live: 'https://inventory-management-chi-liard.vercel.app',
@@ -59,7 +66,7 @@ const projects = [
   },
   {
     name: 'Job Search',
-    desc: 'A powerful and intuitive Job Search web application built with the MERN stack that allows users to search, filter, and browse job listings effortlessly. Integrated with external APIs for real-time job data, this app provides advanced filtering, pagination, and user-friendly interface to help job seekers find their dream roles faster',
+    desc: 'A powerful and intuitive Job Search web application built with the MERN stack that allows users to search, filter, and browse job listings effortlessly. Integrated with external APIs for real-time job data.',
     image: JobSearch,
     github: 'https://github.com/raihan51674/job-search',
     live: 'https://jobhelp.vercel.app',
@@ -73,36 +80,6 @@ const projects = [
       { name: 'Firebase', icon: <SiFirebase className="text-yellow-400" /> },
     ],
   },
-  // {
-  //   name: 'Eventify',
-  //   desc: 'Event Explorer is a responsive single-page application built with React, designed to help users discover and explore upcoming local events like conferences, art exhibitions, sports events, and more. Authenticated users can view detailed event pages, reserve seats, and manage their profiles.',
-  //   image: eventify,
-  //   github: 'https://github.com/raihan51674',
-  //   live: 'https://eventify-explore-events.netlify.app/',
-  //   bgColor: 'bg-gradient-to-br from-gray-900 via-blue-900 to-violet-950',
-  //   techStack: [
-  //     { name: 'React', icon: <FaReact className="text-blue-400" /> },
-  //     { name: 'React Router', icon: <SiReactrouter className="text-red-400" /> },
-  //     { name: 'Firebase', icon: <SiFirebase className="text-yellow-400" /> },
-  //     { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-cyan-400" /> },
-  //     { name: 'Netlify', icon: <SiNetlify className="text-teal-400" /> },
-  //   ],
-  // },
-  // {
-  //   name: 'MediCare',
-  //   desc: 'MediCare is a responsive, frontend-only medical web application built using modern web technologies like React and Tailwind CSS. It is designed to provide a clean, intuitive, and professional user interface for showcasing medical services, doctor profiles, statistics, and health-related content.',
-  //   image: madicare,
-  //   github: 'https://github.com/raihan51674',
-  //   live: 'https://splendid-stroopwafel-1f5da0.netlify.app/',
-  //   bgColor: 'bg-gradient-to-br from-gray-900 via-blue-900 to-violet-950',
-  //   techStack: [
-  //     { name: 'React', icon: <FaReact className="text-blue-400" /> },
-  //     { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-cyan-400" /> },
-  //     { name: 'React Router', icon: <SiReactrouter className="text-red-400" /> },
-  //     { name: 'GitHub', icon: <FaGithubIcon className="text-gray-200" /> },
-  //     { name: 'Recharts', icon: <SiSoundcharts className="text-sky-400" /> },
-  //   ],
-  // },
 ];
 
 const ProjectShowSection = () => {
