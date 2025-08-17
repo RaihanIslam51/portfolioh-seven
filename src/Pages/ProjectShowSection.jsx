@@ -12,8 +12,25 @@ import { motion } from 'framer-motion';
 import TreeEvent from "../assets/TreeEvent.png"
 import Inventory from "../assets/Inventory.png"
 import JobSearch from "../assets/Jobsearchpng.png"
+import FourmHub from "../assets/formuhub.png"
 
 const projects = [
+    {
+    name: 'ForumHub Community',
+    desc: 'ForumHub Community is a modern, interactive discussion platform where users can share knowledge, ask questions, and engage in meaningful conversations. Designed with a clean, responsive interface, ForumHub supports both light and dark modes for enhanced user experience',
+    image:  FourmHub,
+    github: 'https://github.com/RaihanIslam51/AIUB-Dinajpur-Forum',
+    live: 'https://dinajpur-forum.web.app',
+    bgColor: 'bg-gradient-to-br from-gray-900 via-blue-900 to-violet-950',
+    techStack: [
+      { name: 'React', icon: <FaReact className="text-blue-400" /> },
+      { name: 'Node.js', icon: <FaNodeJs className="text-green-500" /> },
+      { name: 'Express', icon: <SiExpress className="text-gray-300" /> },
+      { name: 'MongoDB', icon: <SiMongodb className="text-green-400" /> },
+      { name: 'JWT', icon: <SiJsonwebtokens className="text-rose-400" /> },
+      { name: 'framer-motion', icon: <TbBrandFramerMotion className="text-violet-500" /> },
+    ],
+  },
   {
     name: 'Social Event',
     desc: 'The Social Event Project brings people together to celebrate, connect, and share meaningful experiences. It fosters community spirit through engaging activities, cultural exchange, and collaborative participation.',
