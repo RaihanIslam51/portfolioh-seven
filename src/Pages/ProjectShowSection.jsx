@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import TreeEvent from "../assets/TreeEvent.png"
 import Inventory from "../assets/Inventory.png"
 import JobSearch from "../assets/Jobsearchpng.png"
-import FourmHub from "../assets/formuhub.png"
+import FourmHub from "../assets/"
 
 const projects = [
     {
