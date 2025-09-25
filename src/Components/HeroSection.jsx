@@ -16,14 +16,14 @@ const socialLinks = [
   {
     icon: FaGithub,
     label: "GitHub",
-    href: "https://github.com/raihan51674",
+    href: "https://github.com/RaihanIslam51",
     color: "hover:text-gray-300",
     bgColor: "hover:bg-gray-800",
   },
   {
     icon: FaLinkedin,
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/md-raihan-islam-b64aab274",
+    href: "https://www.linkedin.com/in/raihanislam-dev/",
     color: "hover:text-blue-400",
     bgColor: "hover:bg-blue-500/10",
   },
