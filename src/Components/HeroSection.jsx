@@ -5,11 +5,11 @@ import { FaWhatsapp, FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa";
 import { useNavigate } from "react-router";
 
 const roles = [
-  "MERN Stack Developer",
-  "Frontend Developer",
-  "React Developer",
-  "JavaScript Developer",
-  "Tech Enthusiast",
+
+  "Business Analyst",
+  "Marketing Enthusiast",
+  "Finance Learner",
+  "Management Student",
 ];
 
 const socialLinks = [
@@ -185,7 +185,7 @@ export default function HeroSection() {
                 <span className="text-white">Hello, I'm</span>
                 <br />
                 <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
-                  MD.Raihan Islam
+                  Fahim Muntasir
                 </span>
               </motion.h1>
 
@@ -216,8 +216,8 @@ export default function HeroSection() {
               transition={{ delay: 0.7, duration: 0.8 }}
               className="text-lg lg:text-xl text-slate-400 leading-relaxed max-w-2xl"
             >
-              I specialize in building modern web applications with the MERN stack. Passionate about creating efficient,
-              scalable solutions with clean code and intuitive user interfaces.
+              I am pursuing a Bachelor of Business Administration, passionate about business strategy,
+              marketing, and entrepreneurship. Focused on developing skills in management, finance, and organizational leadership.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -277,8 +277,8 @@ export default function HeroSection() {
               <div className="relative w-96 h-96 rounded-full overflow-hidden border-4 border-slate-700/50 shadow-2xl bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm">
                 {/* Profile Image */}
                 <img
-                  src="/Raihan.jpg"
-                  alt="MD.Raihan Islam - MERN Stack Developer"
+                  src="/fahim.jpg"
+                  alt="MD.Raihan Islam - BBA Student"
                   className="w-full h-full object-cover"
                 />
 
@@ -288,21 +288,21 @@ export default function HeroSection() {
                   transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
                   className="absolute top-8 left-8 bg-blue-600/20 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-mono text-blue-300 border border-blue-500/30"
                 >
-                  React.js
+                  Marketing
                 </motion.div>
                 <motion.div
                   animate={{ y: [0, 10, 0], rotate: [0, -3, 0] }}
                   transition={{ duration: 7, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
                   className="absolute bottom-8 right-8 bg-purple-600/20 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-mono text-purple-300 border border-purple-500/30"
                 >
-                  Node.js
+                  Finance
                 </motion.div>
                 <motion.div
                   animate={{ y: [0, -8, 0], rotate: [0, 2, 0] }}
                   transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 0.8 }}
                   className="absolute top-16 right-16 bg-green-600/20 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-mono text-green-300 border border-green-500/30"
                 >
-                  MongoDB
+                  Management
                 </motion.div>
               </div>
 

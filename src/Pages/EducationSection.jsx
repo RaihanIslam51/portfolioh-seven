@@ -7,15 +7,15 @@ const EducationSection = () => {
   const educationData = [
      {
       id: 3,
-      degree: "Computer Science & Software Engineering(CSSE)",
+      degree: "Bachelor of Business Administration (BBA)",
       institution: "American International University-Bangladesh",
       period: "2023 - Present",
       icon: <FaGraduationCap className="text-green-400 text-3xl" />,
       achievements: [
-        { icon: <SiSharp className="text-blue-500" />, text: ".Net Programming" },
-        { icon: <FaJava  className="text-red-500" />, text: "Java Programming" },
-        { icon: <SiCplusplus className="text-yellow-500" />, text: "C++" },
-        { icon: <SiReact className="text-cyan-400" />, text: "web Development" }
+        { icon: <FaBook className="text-blue-500" />, text: "Business Management" },
+        { icon: <FaBook className="text-red-500" />, text: "Marketing Principles" },
+        { icon: <FaBook className="text-yellow-500" />, text: "Financial Accounting" },
+        { icon: <FaBook className="text-cyan-400" />, text: "Organizational Behavior" }
       ],
       cardColor: "bg-gradient-to-br from-green-600/20 to-green-800/20",
       accentColor: "border-green-500/30"
@@ -83,7 +83,7 @@ const EducationSection = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-blue-700 rounded-full mx-auto" />
           <p className="mt-6 text-lg text-gray-300 max-w-3xl mx-auto">
-            My academic path and specialization in science and technology disciplines
+            My academic path and specialization in business administration and management
           </p>
         </motion.div>
 

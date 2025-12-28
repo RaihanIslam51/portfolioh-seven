@@ -1,83 +1,62 @@
 import { motion } from 'framer-motion';
-import { FaExternalLinkAlt, FaGithub, FaNodeJs, FaReact, FaStripe } from 'react-icons/fa';
-import {
-  SiExpress,
-  SiFirebase,
-  SiJsonwebtokens,
-  SiMongodb,
-  SiTailwindcss
-} from 'react-icons/si';
-import { TbBrandFramerMotion } from "react-icons/tb";
-
-// ✅ Make sure these files exist in /src/assets/
-import FourmHub from "../assets/formuhub.png";
-import Inventory from "../assets/Inventory.png";
-import JobSearch from "../assets/Jobsearchpng.png";
-import TreeEvent from "../assets/TreeEvent.png";
+import { FaExternalLinkAlt, FaFileAlt, FaChartLine, FaBullhorn, FaMoneyBillWave, FaUsers, FaLightbulb, FaChartBar } from 'react-icons/fa';
+import { SiGoogleanalytics, SiCanva } from 'react-icons/si';
 
 const projects = [
   {
-    name: 'ForumHub Community',
-    desc: 'ForumHub Community is a modern, interactive discussion platform where users can share knowledge, ask questions, and engage in meaningful conversations. Designed with a clean, responsive interface, ForumHub supports both light and dark modes for enhanced user experience',
-    image: FourmHub,
-    github: 'https://github.com/RaihanIslam51/AIUB-Dinajpur-Forum',
-    live: 'https://dinajpur-forum.web.app',
+    name: 'Market Research Analysis',
+    desc: 'Comprehensive market research study analyzing consumer behavior and market trends in the smartphone industry. Conducted surveys, focus groups, and competitive analysis to identify key opportunities and market gaps.',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800',
+    reportLink: '#',
+    presentationLink: '#',
     bgColor: 'bg-gradient-to-br from-gray-900 via-blue-900 to-violet-950',
-    techStack: [
-      { name: 'React', icon: <FaReact className="text-blue-400" /> },
-      { name: 'Node.js', icon: <FaNodeJs className="text-green-500" /> },
-      { name: 'Express', icon: <SiExpress className="text-gray-300" /> },
-      { name: 'MongoDB', icon: <SiMongodb className="text-green-400" /> },
-      { name: 'JWT', icon: <SiJsonwebtokens className="text-rose-400" /> },
-      { name: 'framer-motion', icon: <TbBrandFramerMotion className="text-violet-500" /> },
+    skillsUsed: [
+      { name: 'Market Research', icon: <FaChartBar className="text-blue-400" /> },
+      { name: 'Data Analysis', icon: <FaChartLine className="text-green-500" /> },
+      { name: 'SWOT Analysis', icon: <FaLightbulb className="text-yellow-400" /> },
+      { name: 'Consumer Insights', icon: <FaUsers className="text-purple-400" /> },
     ],
   },
   {
-    name: 'Social Event',
-    desc: 'The Social Event Project brings people together to celebrate, connect, and share meaningful experiences. It fosters community spirit through engaging activities, cultural exchange, and collaborative participation.',
-    image: TreeEvent,
-    github: 'https://github.com/raihan51674/Tree-Plantation-Event',
-    live: 'https://tree-plantation-13b0c.web.app',
+    name: 'Digital Marketing Campaign',
+    desc: 'Developed and executed a comprehensive digital marketing strategy for a local startup. Created social media content, managed ad campaigns, and analyzed performance metrics resulting in 45% increase in engagement.',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800',
+    reportLink: '#',
+    presentationLink: '#',
     bgColor: 'bg-gradient-to-br from-gray-900 via-blue-900 to-violet-950',
-    techStack: [
-      { name: 'React', icon: <FaReact className="text-blue-400" /> },
-      { name: 'Node.js', icon: <FaNodeJs className="text-green-500" /> },
-      { name: 'Express', icon: <SiExpress className="text-gray-300" /> },
-      { name: 'MongoDB', icon: <SiMongodb className="text-green-400" /> },
-      { name: 'JWT', icon: <SiJsonwebtokens className="text-rose-400" /> },
-      { name: 'Stripe', icon: <FaStripe className="text-blue-400" /> },
+    skillsUsed: [
+      { name: 'Digital Marketing', icon: <FaBullhorn className="text-blue-400" /> },
+      { name: 'Social Media', icon: <FaUsers className="text-green-500" /> },
+      { name: 'Content Strategy', icon: <FaLightbulb className="text-cyan-400" /> },
+      { name: 'Analytics', icon: <SiGoogleanalytics className="text-orange-400" /> },
     ],
   },
   {
-    name: 'Inventory-management',
-    desc: 'Mobile Shop Inventory Management System — A comprehensive and user-friendly web application designed to streamline the buying, selling, and inventory management process for mobile phones.',
-    image: Inventory,
-    github: 'https://github.com/raihan51674/Inventory-management',
-    live: 'https://inventory-management-chi-liard.vercel.app',
+    name: 'Financial Statement Analysis',
+    desc: 'In-depth financial analysis of publicly traded companies including ratio analysis, trend analysis, and valuation. Prepared detailed reports with investment recommendations and risk assessments.',
+    image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800',
+    reportLink: '#',
+    presentationLink: '#',
     bgColor: 'bg-gradient-to-br from-gray-900 via-blue-900 to-violet-950',
-    techStack: [
-      { name: 'React', icon: <FaReact className="text-blue-400" /> },
-      { name: 'Node.js', icon: <FaNodeJs className="text-green-500" /> },
-      { name: 'Express', icon: <SiExpress className="text-gray-300" /> },
-      { name: 'MongoDB', icon: <SiMongodb className="text-green-400" /> },
-      { name: 'JWT', icon: <SiJsonwebtokens className="text-rose-400" /> },
-      { name: 'framer-motion', icon: <TbBrandFramerMotion className="text-violet-500" /> },
+    skillsUsed: [
+      { name: 'Financial Analysis', icon: <FaMoneyBillWave className="text-blue-400" /> },
+      { name: 'Data Analysis', icon: <FaChartLine className="text-green-500" /> },
+      { name: 'Excel Modeling', icon: <FaChartBar className="text-green-400" /> },
+      { name: 'Reporting', icon: <FaFileAlt className="text-purple-400" /> },
     ],
   },
   {
-    name: 'Job Search',
-    desc: 'A powerful and intuitive Job Search web application built with the MERN stack that allows users to search, filter, and browse job listings effortlessly. Integrated with external APIs for real-time job data.',
-    image: JobSearch,
-    github: 'https://github.com/raihan51674/job-search',
-    live: 'https://jobhelp.vercel.app',
+    name: 'Business Plan Development',
+    desc: 'Created a comprehensive business plan for an e-commerce startup including market analysis, financial projections, marketing strategy, and operational framework. Presented to potential investors and received positive feedback.',
+    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800',
+    reportLink: '#',
+    presentationLink: '#',
     bgColor: 'bg-gradient-to-br from-gray-900 via-blue-900 to-violet-950',
-    techStack: [
-      { name: 'React', icon: <FaReact className="text-blue-400" /> },
-      { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-cyan-400" /> },
-      { name: 'Node.js', icon: <FaNodeJs className="text-green-500" /> },
-      { name: 'Express', icon: <SiExpress className="text-gray-300" /> },
-      { name: 'MongoDB', icon: <SiMongodb className="text-green-400" /> },
-      { name: 'Firebase', icon: <SiFirebase className="text-yellow-400" /> },
+    skillsUsed: [
+      { name: 'Business Planning', icon: <FaLightbulb className="text-blue-400" /> },
+      { name: 'Market Analysis', icon: <FaChartBar className="text-cyan-400" /> },
+      { name: 'Financial Planning', icon: <FaMoneyBillWave className="text-green-500" /> },
+      { name: 'Presentation', icon: <SiCanva className="text-purple-400" /> },
     ],
   },
 ];
@@ -101,7 +80,7 @@ const ProjectShowSection = () => {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="text-gray-300 mt-6 max-w-3xl mx-auto text-lg"
         >
-          A selection of projects showcasing modern technologies, clean interfaces, and scalable solutions.
+          A collection of academic and practical business projects demonstrating analytical skills, strategic thinking, and business acumen.
         </motion.p>
       </div>
 
@@ -128,7 +107,7 @@ const ProjectShowSection = () => {
               <h3 className="text-3xl md:text-4xl font-bold">{project.name}</h3>
               <p className="text-gray-200 leading-relaxed text-base md:text-lg">{project.desc}</p>
               <div className="flex flex-wrap gap-3">
-                {project.techStack.map(({ name, icon }, i) => (
+                {project.skillsUsed.map(({ name, icon }, i) => (
                   <span key={i} className="flex items-center gap-2 text-sm md:text-base px-3 py-1.5 bg-black/30 border border-white/20 rounded-lg shadow-sm font-medium">
                     <span className="text-lg md:text-xl">{icon}</span> {name}
                   </span>
@@ -136,20 +115,20 @@ const ProjectShowSection = () => {
               </div>
               <div className="flex flex-wrap gap-4 pt-3">
                 <a
-                  href={project.github}
+                  href={project.reportLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-5 py-2.5 rounded-lg bg-black/70 hover:bg-black transition border border-white/30 text-sm md:text-base shadow-md font-semibold"
                 >
-                  <FaGithub /> GitHub
+                  <FaFileAlt /> View Report
                 </a>
                 <a
-                  href={project.live}
+                  href={project.presentationLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-5 py-2.5 rounded-lg bg-white text-gray-900 hover:bg-gray-200 transition text-sm md:text-base font-semibold shadow-md"
                 >
-                  <FaExternalLinkAlt /> Live Demo
+                  <FaExternalLinkAlt /> Presentation
                 </a>
               </div>
             </div>

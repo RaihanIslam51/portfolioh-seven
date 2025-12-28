@@ -68,7 +68,7 @@ const AboutSection = () => {
           >
             <div className="relative group">
               <img
-                src="https://i.ibb.co/HDdjJNBd/facbookp.jpg"
+                src="/fahim.jpg"
                 alt="MD. Tanvir Islam Rakib"
                 className="rounded-3xl w-full max-w-md object-cover shadow-2xl border-4 border-white/10 group-hover:border-blue-500/30 transition-all duration-500"
               />
@@ -87,17 +87,17 @@ const AboutSection = () => {
           >
             <div className="space-y-6">
               <h3 className="text-3xl font-bold text-white">
-                I'm <span className="text-blue-400">MD.Raihan Islam</span>
+                I'm <span className="text-blue-400">Fahim Muntasir</span>
               </h3>
               
               <p className="text-lg text-gray-300 leading-relaxed">
                 A passionate <span className="text-blue-400 font-medium">
                   <Typewriter
                     words={[
-                      'Frontend Developer',
-                      'MERN Stack Developer',
-                      'JavaScript Developer',
-                      'React Developer'
+                      'BBA Student',
+                      'Business Analyst',
+                      'Marketing Enthusiast',
+                      'Finance Learner'
                     ]}
                     loop
                     cursor
@@ -106,7 +106,7 @@ const AboutSection = () => {
                     deleteSpeed={50}
                     delaySpeed={2000}
                   />
-                </span> with a focus on creating efficient, scalable web applications that deliver exceptional user experiences.
+                </span> with a focus on developing business acumen and leadership skills to drive organizational success.
               </p>
 
               <div className="space-y-5">
@@ -115,7 +115,7 @@ const AboutSection = () => {
                     <FaBrain className="text-blue-400 text-xl" />
                   </div>
                   <p className="text-gray-300 flex-1">
-                    With a strong foundation in computer science and hands-on experience in modern web technologies, I bridge the gap between design and technical implementation.
+                    With a strong foundation in business administration and hands-on experience in market analysis, I bridge the gap between theory and practical business solutions.
                   </p>
                 </div>
 
@@ -124,7 +124,7 @@ const AboutSection = () => {
                     <FaTools className="text-purple-400 text-xl" />
                   </div>
                   <p className="text-gray-300 flex-1">
-                    I follow industry best practices, write clean, maintainable code, and stay updated with emerging technologies to build future-proof solutions.
+                    I follow strategic business frameworks, apply analytical thinking, and stay updated with market trends to develop effective business strategies.
                   </p>
                 </div>
 
@@ -133,7 +133,7 @@ const AboutSection = () => {
                     <FaPalette className="text-indigo-400 text-xl" />
                   </div>
                   <p className="text-gray-300 flex-1">
-                    Beyond coding, I'm passionate about UI/UX design principles, enjoy contributing to open source, and constantly seek to expand my knowledge through personal projects.
+                    Beyond academics, I'm passionate about entrepreneurship, enjoy participating in business case competitions, and constantly seek to expand my knowledge through research and networking.
                   </p>
                 </div>
               </div>

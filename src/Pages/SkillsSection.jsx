@@ -1,47 +1,47 @@
 import { motion } from 'framer-motion';
-import { FaCss3Alt, FaGitAlt, FaGithub, FaHtml5, FaNodeJs, FaReact, FaStripe } from 'react-icons/fa';
+import { FaChartLine, FaBriefcase, FaChartBar, FaMoneyBillWave, FaUsers, FaBullhorn, FaLightbulb, FaFileExcel, FaFileWord, FaFilePowerpoint, FaGoogle, FaMicrosoft } from 'react-icons/fa';
 import {
-  SiTailwindcss, SiJavascript, SiMongodb, SiExpress, SiFramer, SiJsonwebtokens,
-  SiNetlify, SiVercel, SiReactrouter, SiAxios, SiFirebase 
+  SiTableau, SiSlack, SiTrello, SiNotion
 } from 'react-icons/si';
 
 const skillCategories = [
   {
-    title: "Frontend Development",
-    icon: <FaReact className="text-blue-400" />,
+    title: "Business Analysis",
+    icon: <FaChartLine className="text-blue-400" />,
     skills: [
-      { name: "HTML5", icon: <FaHtml5 className="text-orange-500" /> },
-      { name: "CSS3", icon: <FaCss3Alt className="text-blue-500" /> },
-      { name: "Tailwind CSS", icon: <SiTailwindcss className="text-cyan-400" /> },
-      { name: "JavaScript", icon: <SiJavascript className="text-yellow-400" /> },
-      { name: "React.js", icon: <FaReact className="text-blue-400" /> },
-      { name: "React Router", icon: <SiReactrouter className="text-red-400" /> },
-      { name: "Framer Motion", icon: <SiFramer className="text-pink-400" /> },
-      { name: "Axios/TanStack", icon: <SiAxios className="text-blue-300" /> },
+      { name: "Market Research", icon: <FaChartBar className="text-orange-500" /> },
+      { name: "SWOT Analysis", icon: <FaBriefcase className="text-blue-500" /> },
+      { name: "Financial Analysis", icon: <FaMoneyBillWave className="text-cyan-400" /> },
+      { name: "Business Planning", icon: <FaLightbulb className="text-yellow-400" /> },
+      { name: "Data Analytics", icon: <FaGoogle className="text-blue-400" /> },
+      { name: "Excel", icon: <FaFileExcel className="text-green-500" /> },
+      { name: "PowerPoint", icon: <FaFilePowerpoint className="text-red-400" /> },
+      { name: "Tableau", icon: <SiTableau className="text-blue-300" /> },
     ],
     gradient: "from-blue-600/20 to-blue-800/20"
   },
   {
-    title: "Backend & Database",
-    icon: <FaNodeJs className="text-green-400" />,
+    title: "Marketing & Communication",
+    icon: <FaBullhorn className="text-green-400" />,
     skills: [
-      { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
-      { name: "Express.js", icon: <SiExpress className="text-gray-300" /> },
-      { name: "MongoDB", icon: <SiMongodb className="text-green-400" /> },
-      { name: "JWT", icon: <SiJsonwebtokens className="text-rose-400" /> },
-      { name: "Firebase", icon: <SiFirebase className="text-yellow-400" /> },
+      { name: "Digital Marketing", icon: <FaBullhorn className="text-green-500" /> },
+      { name: "Social Media", icon: <FaUsers className="text-gray-300" /> },
+      { name: "Brand Strategy", icon: <FaLightbulb className="text-green-400" /> },
+      { name: "Content Creation", icon: <FaFileWord className="text-blue-400" /> },
+      { name: "Presentations", icon: <FaFilePowerpoint className="text-red-400" /> },
     ],
     gradient: "from-green-600/20 to-green-800/20"
   },
   {
-    title: "Tools & Platforms",
-    icon: <FaGitAlt className="text-red-400" />,
+    title: "Productivity Tools",
+    icon: <FaBriefcase className="text-red-400" />,
     skills: [
-      { name: "Git", icon: <FaGitAlt className="text-red-500" /> },
-      { name: "GitHub", icon: <FaGithub className="text-gray-200" /> },
-      { name: "Stripe", icon: <FaStripe className="text-indigo-400" /> },
-      { name: "Netlify", icon: <SiNetlify className="text-cyan-300" /> },
-      { name: "Vercel", icon: <SiVercel className="text-white" /> },
+      { name: "MS Word", icon: <FaFileWord className="text-blue-500" /> },
+      { name: "MS Excel", icon: <FaFileExcel className="text-green-500" /> },
+      { name: "MS Teams", icon: <FaMicrosoft className="text-purple-400" /> },
+      { name: "Slack", icon: <SiSlack className="text-cyan-300" /> },
+      { name: "Trello", icon: <SiTrello className="text-blue-400" /> },
+      { name: "Notion", icon: <SiNotion className="text-white" /> },
     ],
     gradient: "from-purple-600/20 to-purple-800/20"
   },
@@ -77,12 +77,12 @@ const SkillsSection = () => {
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">
-              Technical Skills
+              Business Skills
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-blue-700 rounded-full mx-auto" />
           <p className="mt-6 text-lg text-gray-300 max-w-3xl mx-auto">
-            My comprehensive skill set covers the entire development stack with expertise in modern web technologies.
+            My comprehensive skill set covers business administration, marketing, finance, and analytical tools essential for modern business management.
           </p>
         </motion.div>
 
@@ -122,29 +122,7 @@ const SkillsSection = () => {
         </div>
 
         {/* Additional Skills */}
-        <motion.div
-          initial={{ opacity: 1, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4 }}
-          className="mt-8 bg-white/5 backdrop-blur-lg rounded-2xl border border-white/10 p-6"
-        >
-          <h3 className="text-xl font-semibold mb-4 text-center text-blue-200">
-            Additional Skills & Knowledge
-          </h3>
-          <div className="flex flex-wrap justify-center gap-3">
-            {[
-              'ES6+', 'REST APIs', 'Responsive Design', 'Vite', 'Postman', 'VS Code', 'Debugging'
-            ].map((skill, index) => (
-              <motion.div
-                key={index}
-                whileHover={{ y: -3 }}
-                className="px-3 py-1.5 bg-white/10 rounded-full text-sm hover:bg-blue-500/20 transition-all"
-              >
-                {skill}
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
+      
       </div>
     </section>
   );
